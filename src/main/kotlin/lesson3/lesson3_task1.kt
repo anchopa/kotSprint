@@ -2,12 +2,9 @@ package org.example.lesson3
 
 fun main() {
 
-    val vasuaGrade = 3.00
-    val anyaGrade = 4.00
-    val sashaGrade = 3.00
-    val mashaGrade = 5.00
+    val grades = listOf(3.00, 4.00, 3.00, 5.00)
 
-    val sum = vasuaGrade+anyaGrade+sashaGrade+mashaGrade
+    val sum = grades.sum()
     val srGrade = sum / 4
 
     println(srGrade)
