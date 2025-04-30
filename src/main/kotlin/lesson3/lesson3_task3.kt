@@ -17,5 +17,5 @@ fun main() {
     println(expenses_for_memb)
     println(expenses_after_newMemb)
     println(sr_zp_memb)
-
+    //я снова перепутал названия веток не ругайтесь пожалуйста
 }
